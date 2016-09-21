@@ -1,0 +1,6 @@
+{
+  "name": "Boomerang-cache",
+  "tagline": "boomerangCache is a client side caching library based on localStorage and sessionStorage",
+  "body": "# boomerang-cache - [![Build Status](https://travis-ci.org/giraysam/boomerang-cache.svg?branch=master)](https://travis-ci.org/giraysam/boomerang-cache)\r\nboomerangCache is a client side caching library based on localStorage\r\n\r\nAPI Reference\r\n-------------\r\n`create`, `check`, `set`, `get`, `getAll`, `remove`, `clear`\r\n\r\n* * *\r\n\r\n### BoomerangCache.create\r\n\r\n> Creates a new bucket.\r\n\r\n#### Arguments\r\n\r\n1. `bucket` (**String**)\r\n2. `options` (**Object**)\r\n    * `type`: (**local** | **session**)\r\n\r\n### BoomerangCache.set\r\n\r\n> Set a key to a particular value or a hash object (Object or Array) under a hash key.\r\n\r\n#### Arguments\r\n\r\n1. `key` (**String**)\r\n2. `value` (**String**, **Number**, **Object**, **Array**)\r\n\r\n*Example*\r\n\r\n```js\r\nboomerang.set('stringData', 'Hello World');\r\nboomerang.set('numberData', 12345);\r\nboomerang.set('objectData', {value: 'Hello World'});\r\nboomerang.set('arrayData', [{value: 'Hello World'}, {value: 'Hello Boomerang'}]);\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
